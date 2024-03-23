@@ -7,6 +7,10 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
+// Prefer BT over USB output
+#define OUT_BLE
 
 // Left/Right
 #define ARDUX_LEFT 1
